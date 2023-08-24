@@ -6,3 +6,4 @@ The Docker container consist of Slackware 14.2 with the following package sets: 
 
 Additional packages added: autoconf2.13 gcc-9
 
+Docker Hub: https://hub.docker.com/repository/docker/basiliskdev/slackware14-uxp/general
