@@ -5,7 +5,7 @@ RUN slackpkg -default_answer=yes -batch=on install-new
 RUN slackpkg -default_answer=yes -batch=on upgrade-all
 RUN slackpkg -default_answer=yes -batch=on install a ap d l n x 
 
-COPY install_slackbuilds.sh /
-RUN /install_slackbuilds.sh && rm /install_slackbuilds.sh
+COPY install_dependencies.sh /
+RUN /install_dependencies.sh && rm /install_dependencies.sh
 
 CMD bash -l

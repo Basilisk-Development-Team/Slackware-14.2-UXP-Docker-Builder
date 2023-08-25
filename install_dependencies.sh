@@ -22,3 +22,6 @@ wget http://ftp.slackware.com/pub/slackware/unsupported/gcc-9.2.0-for-Slackware-
 upgradepkg --installnew ./*.txz
 cd /
 rm -rf /gcc9
+
+mkdir /usr/lib64/bdf-plugins
+ln -s /usr/libexec/gcc/x86_64-slackware-linux/9.2.0/liblto_plugin.so* /usr/lib64/bdf-plugins/
